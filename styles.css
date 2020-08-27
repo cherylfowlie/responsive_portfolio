@@ -1,0 +1,66 @@
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('./images/backgroundImage.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+body {
+  background: #343a40;
+}
+
+a {
+  color: #061D25;
+}
+
+#about {
+  padding-top: 10%;
+}
+
+.masthead a:hover {
+  color: rgb(250, 119, 79);
+}
+
+h2 {
+  color:pink;
+  padding: 4%;
+}
+
+h1{ 
+  color: white;
+  opacity: 1;
+}
+
+.footer {
+  background: #343a40;
+  padding: 10px 0;
+}
+
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+
+.footer a:hover {
+  color: pink;
+}
+
+#map-image {
+  padding-left: 20%;
+  padding-bottom: 100px;
+}
+
+.card-text {
+  color: #061D25;
+}
