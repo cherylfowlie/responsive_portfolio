@@ -22,6 +22,22 @@ a {
   padding-top: 10%;
 }
 
+.btn-primary {
+  padding: 5px;
+  background-color: #cc3366 !important;
+  border-color: #cc3366;
+}
+
+.btn-primary:hover {
+  padding: 5px;
+  background-color: #af0d43 !important;
+  border-color: #cc3366;
+}
+
+#info-container {
+  padding-bottom: 3%;
+}
+
 h2 {
   color: #cc3366;
   padding: 4%;
